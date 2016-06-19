@@ -11,7 +11,7 @@
             <ColumnDefinition Width="491*"/>
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="label" Content="First Name" HorizontalAlignment="Left" Margin="67,111,0,0" VerticalAlignment="Top" Height="26" Width="67"/>
+        <Label x:Name="label" Content="FName" HorizontalAlignment="Left" Margin="67,111,0,0" VerticalAlignment="Top" Height="26" Width="67"/>
         <Label x:Name="label_Copy" Content="LName" HorizontalAlignment="Left" Margin="67,159,0,0" VerticalAlignment="Top" Height="26" Width="66"/>
         <Label x:Name="label_Copy1" Content="Telephone" HorizontalAlignment="Left" Margin="67,207,0,0" VerticalAlignment="Top" Height="26" Width="64"/>
         <TextBox x:Name="txtFName" HorizontalAlignment="Left" Height="23" Margin="225,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
@@ -19,7 +19,7 @@
         <TextBox x:Name="txtLName" HorizontalAlignment="Left" Height="23" Margin="225,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
         <TextBox x:Name="txtTel" HorizontalAlignment="Left" Height="23" Margin="225,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
         <Button x:Name="btnSave" Content="Save Employee" HorizontalAlignment="Left" Margin="225,308,0,0" VerticalAlignment="Top" Width="192" Click="btnSave_Click" Height="19"/>
-        <Label x:Name="label1" Content="LIBRARY SYSTEM" HorizontalAlignment="Left" Margin="135,30,0,0" VerticalAlignment="Top" FontSize="29.333" FontFamily="Showcard Gothic" Height="46" Width="250"/>
+        <Label x:Name="label1" Content="LIBRARY SYSTEM" HorizontalAlignment="Left" Margin="120,28,0,0" VerticalAlignment="Top" FontSize="29.333" FontFamily="Showcard Gothic" Height="46" Width="250"/>
         <DataGrid Name="dataGrid" HorizontalAlignment="Left" Margin="448,83,0,0" VerticalAlignment="Top" Height="244" Width="392" AutoGenerateColumns="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Emp_ID}" Header="Emp_ID" Width="100"/>
