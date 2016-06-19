@@ -11,7 +11,7 @@
             <ColumnDefinition Width="491*"/>
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="label" Content="First Name" HorizontalAlignment="Left" Margin="67,111,0,0" VerticalAlignment="Top" Height="26" Width="67"/>
+        <Label x:Name="label" Content="FName" HorizontalAlignment="Left" Margin="67,111,0,0" VerticalAlignment="Top" Height="26" Width="67"/>
         <Label x:Name="label_Copy" Content="Last Name" HorizontalAlignment="Left" Margin="67,159,0,0" VerticalAlignment="Top" Height="26" Width="66"/>
         <Label x:Name="label_Copy1" Content="Telephone" HorizontalAlignment="Left" Margin="67,207,0,0" VerticalAlignment="Top" Height="26" Width="64"/>
         <TextBox x:Name="txtFName" HorizontalAlignment="Left" Height="23" Margin="225,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
