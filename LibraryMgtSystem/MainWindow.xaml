@@ -19,7 +19,7 @@
         <TextBox x:Name="txtLName" HorizontalAlignment="Left" Height="23" Margin="225,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
         <TextBox x:Name="txtTel" HorizontalAlignment="Left" Height="23" Margin="225,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192"/>
         <Button x:Name="btnSave" Content="Save Employee" HorizontalAlignment="Left" Margin="225,308,0,0" VerticalAlignment="Top" Width="192" Click="btnSave_Click" Height="19"/>
-        <Label x:Name="label1" Content="Sample Project" HorizontalAlignment="Left" Margin="127,30,0,0" VerticalAlignment="Top" FontSize="29.333" FontFamily="Showcard Gothic" Height="46" Width="250"/>
+        <Label x:Name="label1" Content="LIBRARY SYSTEM" HorizontalAlignment="Left" Margin="127,30,0,0" VerticalAlignment="Top" FontSize="29.333" FontFamily="Showcard Gothic" Height="46" Width="250"/>
         <DataGrid Name="dataGrid" HorizontalAlignment="Left" Margin="448,83,0,0" VerticalAlignment="Top" Height="244" Width="392" AutoGenerateColumns="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Emp_ID}" Header="Emp_ID" Width="100"/>
